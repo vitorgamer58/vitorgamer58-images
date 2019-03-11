@@ -1,0 +1,55 @@
+/* 
+ * Print
+ */
+ @media print {
+ 
+	.sidebar div div {
+		display:none !important;
+	}
+	#header {
+		display:none !important;
+	}
+	#footer {
+		display:none !important;
+	}
+	#footer_content_sidebars {
+		display:none !important;
+	} 
+	#title, #frame, #footer_content {
+		background-color:white !important;
+	}
+	.yarpp-related {
+		display:none !important;
+	}
+	.meta {
+		display:none !important;
+	}
+	.wp-pagenavi {
+		display:none !important;
+	}
+	.lang {
+		display:none !important;
+	}
+	.sharedaddy {
+		display:none !important;
+	}
+	#sb-container {
+		display:none !important;
+	}
+	#disqus_thread {
+		display:none !important;
+	}
+	.navigation {
+		display:none !important;
+	}
+	.noprint {
+		display:none !important;
+	}
+  .div.column-right-outer {
+    display:none;
+  }
+	#breadcrumbs {
+		display:none !important;
+	}
+}
+
